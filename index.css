@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+body{ 
+    background-color: darksalmon;
+}
+Main{ 
+        background-color: dark salmon;
+    }
+
+header{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+   }
+nav li a {
+    color: #138d93;
+    text-decoration: none;
+    margin: 50px;
+    padding: 10px;
+    font-family: 'Mansalva', cursive;
+    font-size: 25px;
+}
+
+nav ul {
+     list-style: none;
+     display: flex;
+     margin: right 80px;
+}
+
+ .presentación{
+    text-align: center;
+    flex-direction: row;
+    padding: 30px;
+    margin: 20px;
+ }
+
+ #puntas {
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+    border:solid;color: #f0028d;
+    border-width: 3px;
+    align-items: flex-start;
+
+}
+
+.practica {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-content:center;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+} 
+
+h1{
+    color:mediumvioletred;
+ }
+ h2{
+    color: #024953;
+ }
+
+ h4{
+    color:mediumvioletred;
+ }
+
+ p { 
+    color:rgb(0, 0, 0);
+    font-weight: 700;
+ }
+
+ li{ 
+    color: #0b7785;
+    font-weight: 300;
+ }
+
+.li2{ 
+    color:crimson;
+}
+
+footer{
+    background-color: darkcyan;
+    padding: 30px;
+    margin: 5px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 15px;
+    margin: 20px;
+
+}
+.caja{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+
+}
+
+.mapa{
+    background-color:darksalmon;
+    display: flex;
+    margin: right 80px;
+}
+
+
+#citas{
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+font-family: 'Mansalva', cursive;
+background-color: coral;
+text-decoration: none  red green blue;
+}
+
+#citas iframe{
+    padding: 10px;
+    margin: 1opx;
+   display: flex;
+   flex-direction: row;
+   font-family: 'Mansalva', cursive;
+   font-size: 10px;
+   align-items: center;
+}
+
+.tres{
+    background-color: rgb(234, 7, 132);
+    font-family: 'Mansalva', cursive;
+    display: flex;
+flex-direction: row;
+align-items: center;
+text-decoration: none;
+list-style: none;
+}
+
+
+.dos{
+    background-color: rgb(202, 200, 26);
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    margin: 10px;
+    flex-direction: row;
+
+}
+
